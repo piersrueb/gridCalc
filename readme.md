@@ -45,3 +45,20 @@ Mobile classes can be added to modify the layout on smaller screens. In the exam
 </div>
 
 ```
+Have fun.
+```
+
+   |\          .(' *) ' .
+   | \        ' .*) .'*
+   |(*\      .*(// .*) .
+   |___\       // (. '*
+   ((("'\     // '  * .
+   ((c'7')   /\)
+   ((((^))  /  \
+ .-')))(((-'   /
+    (((()) __/'
+     )))( |
+      (()
+       ))
+
+```
