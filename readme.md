@@ -6,7 +6,7 @@ See demo <a href="https://codepen.io/Rueb/pen/qyeVWZ">here</a>.
 
 ### Usage
 
-For the template to function correctly the column class numbers must be factors of the ``` $cols ```  variable and and their sum must match it's total. The default is 12, examples below. 5 + 5 + 2 = 12 and so on...
+For the template to function correctly the column class numbers must be factors of the ``` $cols ```  variable and and their sum must match it's total. The default is 12, examples below.
 
 ``` html
 <div class="row">
