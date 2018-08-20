@@ -4,11 +4,7 @@
 $width: 100%;
 $gutter: 12px;
 $cols: 12;
-$medium-tablet: 1024px;
-$small-tablet: 768px;
 $large-phone: 640px;
-$medium-phone: 414px;
-$small-phone: 320px;
 
 @for $i from 1 through $cols {
     .column-#{$i}{
