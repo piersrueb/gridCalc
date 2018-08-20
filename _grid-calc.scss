@@ -1,0 +1,34 @@
+//  grid calc
+//  allows you define your gutter width as a pixel value
+
+$width: 100%;
+$gutter: 12px;
+$cols: 12;
+$medium-tablet: 1024px;
+$small-tablet: 768px;
+$large-phone: 640px;
+$medium-phone: 414px;
+$small-phone: 320px;
+
+@for $i from 1 through $cols {
+    .column-#{$i}{
+        width: calc((#{$width}) - (#{$gutter} * 2));
+        float: left;
+        margin: $gutter;
+    }
+}
+
+@media only screen and (min-width: $large-phone) {
+    .column-1{ width: calc((#{$width} / 12) - (#{$gutter} * 2)); }
+    .column-2{ width: calc((#{$width} / 6) - (#{$gutter} * 2)); }
+    .column-3{ width: calc((#{$width} / 4) - (#{$gutter} * 2)); }
+    .column-4{ width: calc((#{$width} / 3) - (#{$gutter} * 2)); }
+    .column-5{ width: calc((#{$width} / (12 / 5)) - (#{$gutter} * 2)); }
+    .column-6{ width: calc((#{$width} / 2) - (#{$gutter} * 2)); }
+    .column-7{ width: calc((#{$width} / (12 / 7)) - (#{$gutter} * 2)); }
+    .column-8{ width: calc((#{$width} / (12 / 8)) - (#{$gutter} * 2)); }
+    .column-9{ width: calc((#{$width} / (12 / 9)) - (#{$gutter} * 2)); }
+    .column-10{ width: calc((#{$width} / (12 / 10)) - (#{$gutter} * 2)); }
+    .column-11{ width: calc((#{$width} / (12 / 11)) - (#{$gutter} * 2)); }
+    .column-12{ width: calc((#{$width} / 1) - (#{$gutter} * 2)); }
+}
