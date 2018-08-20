@@ -2,7 +2,7 @@
 
 Standard SASS grid layout template that allows you define the number of grid columns you require. It also allows you to specify your gutter width as a pixel value.
 
-#### Usage
+### Usage
 
 For the template to function correctly the column class numbers must be factors of the ``` $cols ```  variable and and their sum must match it's total. The default is 12, examples below.
 
@@ -38,7 +38,7 @@ $gutter: 20px;
 ```
 See demo <a href="https://codepen.io/Rueb/pen/qyeVWZ">here</a>.
 
-#### Mobile
+### Mobile
 
 Mobile classes can be added to modify the layout on smaller screens. In the example below a single row of 4 elements will change to two rows of two elements when the screen width drops below the value specified in the media query.
 
