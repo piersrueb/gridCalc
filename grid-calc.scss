@@ -14,6 +14,16 @@ $large-phone: 640px;
     }
 }
 
+@for $i from 1 through $cols {
+    @if $i < 2 {
+        .cl-sm-#{$i}{ width: calc((#{$width} / #{$cols}) - (#{$margin} * 2)); }
+    } @else if $i == $cols  {
+        .cl-sm-#{$i}{ width: calc((#{$width} / (#{$cols} / #{$i})) - (#{$margin} * 2)); }
+    } @else{
+        .cl-sm-#{$i}{ width: calc((#{$width} / (#{$cols} / #{$i})) - (#{$margin} * 2)); }
+    }
+}
+
 @media only screen and (min-width: $large-phone) {
     @for $i from 1 through $cols {
         @if $i < 2 {
@@ -23,15 +33,5 @@ $large-phone: 640px;
         } @else{
             .cl-#{$i}{ width: calc((#{$width} / (#{$cols} / #{$i})) - (#{$margin} * 2)); }
         }
-    }
-}
-
-@for $i from 1 through $cols {
-    @if $i < 2 {
-        .cl-sm-#{$i}{ width: calc((#{$width} / #{$cols}) - (#{$margin} * 2)); }
-    } @else if $i == $cols  {
-        .cl-sm-#{$i}{ width: calc((#{$width} / (#{$cols} / #{$i})) - (#{$margin} * 2)); }
-    } @else{
-        .cl-sm-#{$i}{ width: calc((#{$width} / (#{$cols} / #{$i})) - (#{$margin} * 2)); }
     }
 }
