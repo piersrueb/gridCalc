@@ -17,13 +17,16 @@ For the template to function correctly the column class numbers must be factors 
 <div class="row">
     <div class="column-6"></div>
     <div class="column-3"></div>
-    <div class="column-3"></div>
+    <div class="column-2"></div>
+    <div class="column-1"></div>
 </div>
 
 <div class="row">
     <div class="column-4"></div>
-    <div class="column-5"></div>
     <div class="column-3"></div>
+    <div class="column-2"></div>
+    <div class="column-2"></div>
+    <div class="column-1"></div>
 </div>
 
 ```
