@@ -34,6 +34,6 @@ Set the gutter width and total columns based on your needs.
 
 ``` scss
 $cols: 12;
-$gutter: 12px;
+$gutter: 20px;
 ```
 See demo <a href="https://codepen.io/Rueb/pen/qyeVWZ">here</a>.
