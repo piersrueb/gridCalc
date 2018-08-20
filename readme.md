@@ -1,6 +1,6 @@
 ## Grid Calc Sass
 
-Standard SASS grid layout template that allows you define the number of grid columns you require. I also allows you to specify your gutter width as a pixel value.
+Standard SASS grid layout template that allows you define the number of grid columns you require. It also allows you to specify your gutter width as a pixel value.
 
 ### Usage
 
