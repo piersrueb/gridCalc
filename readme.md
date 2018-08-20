@@ -1,10 +1,9 @@
 ## Grid Calc Sass
-
-Your standard SASS grid template that allows you define your grid column total and specify your gutter width as a pixel value.
+Standard SASS grid layout template that allows you define the number of grid columns you require and specify your gutter width as a pixel value.
 
 ### Usage
 
-Simply setup you columns and make sure their class numbers add up to the col total defined in your SASS variables. In this case 12.
+Simply setup you columns and make sure their class numbers add up to the col total defined in your SASS variables. The default is 12.
 
 ``` html
 
@@ -28,7 +27,7 @@ Simply setup you columns and make sure their class numbers add up to the col tot
 Set the gutter width and column number based on your needs.
 
 ``` scss
-$gutter: 12px;
 $cols: 12;
+$gutter: 12px;
 ```
 See demo <a href="https://codepen.io/Rueb/pen/qyeVWZ">here</a>.
