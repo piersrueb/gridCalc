@@ -1,29 +1,30 @@
 //  grid calc
 
 $width: 100%;
-$gutter: 12px;
 $cols: 12;
+$gutter: 10px;
+$margin: $gutter / 2;
 $large-phone: 640px;
 
 @for $i from 1 through $cols {
     .column-#{$i}{
-        width: calc((#{$width}) - (#{$gutter} * 2));
+        width: calc((#{$width}) - (#{$margin} * 2));
         float: left;
-        margin: $gutter;
+        margin: $margin;
     }
 }
 
 @media only screen and (min-width: $large-phone) {
-    .column-1{ width: calc((#{$width} / #{$cols}) - (#{$gutter} * 2)); }
-    .column-2{ width: calc((#{$width} / (#{$cols} / 2)) - (#{$gutter} * 2)); }
-    .column-3{ width: calc((#{$width} / (#{$cols} / 3)) - (#{$gutter} * 2)); }
-    .column-4{ width: calc((#{$width} / (#{$cols} / 4)) - (#{$gutter} * 2)); }
-    .column-5{ width: calc((#{$width} / (#{$cols} / 5)) - (#{$gutter} * 2)); }
-    .column-6{ width: calc((#{$width} / (#{$cols} / 6)) - (#{$gutter} * 2)); }
-    .column-7{ width: calc((#{$width} / (#{$cols} / 7)) - (#{$gutter} * 2)); }
-    .column-8{ width: calc((#{$width} / (#{$cols} / 8)) - (#{$gutter} * 2)); }
-    .column-9{ width: calc((#{$width} / (#{$cols} / 9)) - (#{$gutter} * 2)); }
-    .column-10{ width: calc((#{$width} / (#{$cols} / 10)) - (#{$gutter} * 2)); }
-    .column-11{ width: calc((#{$width} / (#{$cols} / 11)) - (#{$gutter} * 2)); }
-    .column-12{ width: calc((#{$width} / 1) - (#{$gutter} * 2)); }
+    .column-1{ width: calc((#{$width} / #{$cols}) - (#{$margin} * 2)); }
+    .column-2{ width: calc((#{$width} / (#{$cols} / 2)) - (#{$margin} * 2)); }
+    .column-3{ width: calc((#{$width} / (#{$cols} / 3)) - (#{$margin} * 2)); }
+    .column-4{ width: calc((#{$width} / (#{$cols} / 4)) - (#{$margin} * 2)); }
+    .column-5{ width: calc((#{$width} / (#{$cols} / 5)) - (#{$margin} * 2)); }
+    .column-6{ width: calc((#{$width} / (#{$cols} / 6)) - (#{$margin} * 2)); }
+    .column-7{ width: calc((#{$width} / (#{$cols} / 7)) - (#{$margin} * 2)); }
+    .column-8{ width: calc((#{$width} / (#{$cols} / 8)) - (#{$margin} * 2)); }
+    .column-9{ width: calc((#{$width} / (#{$cols} / 9)) - (#{$margin} * 2)); }
+    .column-10{ width: calc((#{$width} / (#{$cols} / 10)) - (#{$margin} * 2)); }
+    .column-11{ width: calc((#{$width} / (#{$cols} / 11)) - (#{$margin} * 2)); }
+    .column-12{ width: calc((#{$width} / 1) - (#{$margin} * 2)); }
 }
