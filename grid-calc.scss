@@ -14,30 +14,24 @@ $large-phone: 640px;
     }
 }
 
-.cl-sm-1{ width: calc((#{$width} / #{$cols}) - (#{$margin} * 2)); }
-.cl-sm-2{ width: calc((#{$width} / (#{$cols} / 2)) - (#{$margin} * 2)); }
-.cl-sm-3{ width: calc((#{$width} / (#{$cols} / 3)) - (#{$margin} * 2)); }
-.cl-sm-4{ width: calc((#{$width} / (#{$cols} / 4)) - (#{$margin} * 2)); }
-.cl-sm-5{ width: calc((#{$width} / (#{$cols} / 5)) - (#{$margin} * 2)); }
-.cl-sm-6{ width: calc((#{$width} / (#{$cols} / 6)) - (#{$margin} * 2)); }
-.cl-sm-7{ width: calc((#{$width} / (#{$cols} / 7)) - (#{$margin} * 2)); }
-.cl-sm-8{ width: calc((#{$width} / (#{$cols} / 8)) - (#{$margin} * 2)); }
-.cl-sm-9{ width: calc((#{$width} / (#{$cols} / 9)) - (#{$margin} * 2)); }
-.cl-sm-10{ width: calc((#{$width} / (#{$cols} / 10)) - (#{$margin} * 2)); }
-.cl-sm-11{ width: calc((#{$width} / (#{$cols} / 11)) - (#{$margin} * 2)); }
-.cl-sm-12{ width: calc((#{$width} / 1) - (#{$margin} * 2)); }
-
 @media only screen and (min-width: $large-phone) {
-    .cl-1{ width: calc((#{$width} / #{$cols}) - (#{$margin} * 2)); }
-    .cl-2{ width: calc((#{$width} / (#{$cols} / 2)) - (#{$margin} * 2)); }
-    .cl-3{ width: calc((#{$width} / (#{$cols} / 3)) - (#{$margin} * 2)); }
-    .cl-4{ width: calc((#{$width} / (#{$cols} / 4)) - (#{$margin} * 2)); }
-    .cl-5{ width: calc((#{$width} / (#{$cols} / 5)) - (#{$margin} * 2)); }
-    .cl-6{ width: calc((#{$width} / (#{$cols} / 6)) - (#{$margin} * 2)); }
-    .cl-7{ width: calc((#{$width} / (#{$cols} / 7)) - (#{$margin} * 2)); }
-    .cl-8{ width: calc((#{$width} / (#{$cols} / 8)) - (#{$margin} * 2)); }
-    .cl-9{ width: calc((#{$width} / (#{$cols} / 9)) - (#{$margin} * 2)); }
-    .cl-10{ width: calc((#{$width} / (#{$cols} / 10)) - (#{$margin} * 2)); }
-    .cl-11{ width: calc((#{$width} / (#{$cols} / 11)) - (#{$margin} * 2)); }
-    .cl-12{ width: calc((#{$width} / 1) - (#{$margin} * 2)); }
+    @for $i from 1 through $cols {
+        @if $i < 2 {
+            .cl-#{$i}{ width: calc((#{$width} / #{$cols}) - (#{$margin} * 2)); }
+        } @else if $i == $cols  {
+            .cl-#{$i}{ width: calc((#{$width} / (#{$cols} / #{$i})) - (#{$margin} * 2)); }
+        } @else{
+            .cl-#{$i}{ width: calc((#{$width} / (#{$cols} / #{$i})) - (#{$margin} * 2)); }
+        }
+    }
+}
+
+@for $i from 1 through $cols {
+    @if $i < 2 {
+        .cl-sm-#{$i}{ width: calc((#{$width} / #{$cols}) - (#{$margin} * 2)); }
+    } @else if $i == $cols  {
+        .cl-sm-#{$i}{ width: calc((#{$width} / (#{$cols} / #{$i})) - (#{$margin} * 2)); }
+    } @else{
+        .cl-sm-#{$i}{ width: calc((#{$width} / (#{$cols} / #{$i})) - (#{$margin} * 2)); }
+    }
 }
