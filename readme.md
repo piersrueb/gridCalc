@@ -45,7 +45,9 @@ Mobile classes can be added to modify the layout on smaller screens. In the exam
 </div>
 
 ```
-Have fun.
+
+Computer magick.
+
 ```
 
    |\          .(' *) ' .
