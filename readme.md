@@ -4,7 +4,7 @@ Your standard SASS grid template that allows you define your gutter width as a p
 
 ### Usage
 
-
+Simply setup you columns and make sure their class numbers add up to 12.
 
 ``` html
 
@@ -25,4 +25,10 @@ Your standard SASS grid template that allows you define your gutter width as a p
     <div class="column-3"></div>
 </div>
 
+```
+
+
+``` scss
+$gutter: 12px;
+$cols: 12;
 ```
