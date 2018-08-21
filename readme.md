@@ -64,6 +64,10 @@ Mobile classes can be added to modify the layout on smaller screens. In the exam
 
 ```
 
+### Licence
+
+Open source under the MIT License.
+
 Computer magick.
 
 ```
