@@ -2,7 +2,7 @@
 
 Grid Calc is a dynamic SASS grid layout framework that allows you infinite scope to define the number of grid columns you require. It also allows you to specify your gutter width as a pixel value.
 
-See demo on Codepen <a href="https://codepen.io/Rueb/pen/qyeVWZ">here</a>.
+See <a href="https://codepen.io/Rueb/pen/qyeVWZ">demo</a> on Codepen.
 
 You will need to compile the SASS before using it on your project. See <a href="https://sass-lang.com/install">this link</a> for more info on compiling SASS. There is an example of a compiled version of this framework based on a traditional 12 column layout included in this this repo.
 
