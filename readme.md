@@ -4,7 +4,7 @@ Grid Calc is a SASS grid layout framework that allows you infinite scope to defi
 
 You will need to compile the SASS before using it on your project. See <a href="https://sass-lang.com/install">this link</a> for more info on compiling SASS. There is an example of a compiled version of this framework based on a traditional 12 column layout included in this this repo.
 
-See demo <a href="https://codepen.io/Rueb/pen/qyeVWZ">here</a>.
+See demo on Codepen <a href="https://codepen.io/Rueb/pen/qyeVWZ">here</a>.
 
 ### Usage
 
