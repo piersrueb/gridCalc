@@ -6,7 +6,7 @@ See demo <a href="https://codepen.io/Rueb/pen/qyeVWZ">here</a>.
 
 ### Usage
 
-For the template to function correctly the column class numbers must be factors of the ``` $cols ```  variable and and their sum must match it's total. The default is 120, HTML examples below.
+For the template to function correctly the column class numbers must be factors of the ``` $cols ```  variable and and their sum must match it's total. The default is 120, HTML examples below:
 
 ``` html
 <div class="row">
@@ -23,7 +23,7 @@ For the template to function correctly the column class numbers must be factors 
 </div>
 
 ```
-Most conventional CSS grid frameworks use the traditional 12 column layout. To use gridCalc in this way simply change the ``` $cols ```  variable to 12 and you're on your way. HTML examples below.
+Most conventional CSS grid frameworks use the traditional 12 column layout. To use gridCalc in this way simply change the ``` $cols ```  variable to 12 and you're on your way. HTML examples below:
 
 ``` html
 <div class="row">
