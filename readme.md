@@ -12,7 +12,7 @@ Set the gutter width and total columns based on your needs and Grid Calc will ta
 
 ``` scss
 $cols: 120;
-$gutter: 20px;
+$gutter: 20px;  //  must be a pixel value
 ```
 
 For the template to function correctly the column class numbers must be factors of the ``` $cols ```  variable and and their sum must match it's total. The default is 120, HTML examples below:
