@@ -1,6 +1,6 @@
 ## GridCalc
 
-Grid Calc is a SASS grid layout framework that allows you infinite scope to define the number of grid columns you require. It also allows you to specify your gutter width as a pixel value.
+Grid Calc is a SASS grid layout framework that allows you infinite scope to define the number of grid columns you require. It also allows you to specify your gutter width as a pixel value. You will need to compile the SASS before using it on your project. For more info on <a href="https://sass-lang.com/install">compiling SASS</a>.
 
 See demo <a href="https://codepen.io/Rueb/pen/qyeVWZ">here</a>.
 
