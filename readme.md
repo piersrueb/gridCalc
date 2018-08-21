@@ -8,14 +8,16 @@ You will need to compile the SASS before using it on your project. See <a href="
 
 ### Usage
 
-Set the gutter width and total columns based on your needs and Grid Calc will take care of the rest.
+Set the total columns and gutter width based on your needs and Grid Calc will take care of the rest.
 
 ``` scss
 $cols: 120;
 $gutter: 20px;  //  must be a pixel value
 ```
 
-For the template to function correctly the column class numbers must be factors of the ``` $cols ```  variable and and their sum must match it's total. The default is 120, HTML examples below:
+For the template to function correctly the column class numbers must be factors of the ``` $cols ```  variable and and their sum must match it's total.
+
+In the example below the  ``` $cols ``` variable is set at the default 120 columns. The column classes for each row add up to the same total of 120 creating the desired 3 and 4 column layouts.
 
 ``` html
 <div class="row">
