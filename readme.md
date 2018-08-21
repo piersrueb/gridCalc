@@ -6,28 +6,28 @@ See demo <a href="https://codepen.io/Rueb/pen/qyeVWZ">here</a>.
 
 ### Usage
 
-For the template to function correctly the column class numbers must be factors of the ``` $cols ```  variable and and their sum must match it's total. The default is 12, examples below.
+For the template to function correctly the column class numbers must be factors of the ``` $cols ```  variable and and their sum must match it's total. The default is 120, examples below.
 
 ``` html
 <div class="row">
-    <div class="cl-5"></div>
-    <div class="cl-5"></div>
-    <div class="cl-2"></div>
+    <div class="cl-50"></div>
+    <div class="cl-50"></div>
+    <div class="cl-20"></div>
 </div>
 
 <div class="row">
-    <div class="cl-4"></div>
-    <div class="cl-3"></div>
-    <div class="cl-2"></div>
-    <div class="cl-2"></div>
-    <div class="cl-1"></div>
+    <div class="cl-40"></div>
+    <div class="cl-30"></div>
+    <div class="cl-20"></div>
+    <div class="cl-20"></div>
+    <div class="cl-10"></div>
 </div>
 
 ```
 Set the gutter width and total columns based on your needs.
 
 ``` scss
-$cols: 12;
+$cols: 120;
 $gutter: 20px;
 ```
 
@@ -38,10 +38,10 @@ Mobile classes can be added to modify the layout on smaller screens. In the exam
 ``` html
 
 <div class="row">
-    <div class="cl-3 cl-sm-6"></div>
-    <div class="cl-3 cl-sm-6"></div>
-    <div class="cl-3 cl-sm-6"></div>
-    <div class="cl-3 cl-sm-6"></div>
+    <div class="cl-30 cl-sm-60"></div>
+    <div class="cl-30 cl-sm-60"></div>
+    <div class="cl-30 cl-sm-60"></div>
+    <div class="cl-30 cl-sm-60"></div>
 </div>
 
 ```
