@@ -68,8 +68,6 @@ Mobile classes can be added to modify the layout on smaller screens. In the exam
 
 Open source under the MIT License.
 
-Computer magick.
-
 ```
 
    |\          .(' *) ' .
