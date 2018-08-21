@@ -6,6 +6,13 @@ See demo <a href="https://codepen.io/Rueb/pen/qyeVWZ">here</a>.
 
 ### Usage
 
+Set the gutter width and total columns based on your needs.
+
+``` scss
+$cols: 120;
+$gutter: 20px;
+```
+
 For the template to function correctly the column class numbers must be factors of the ``` $cols ```  variable and and their sum must match it's total. The default is 120, HTML examples below:
 
 ``` html
@@ -38,13 +45,6 @@ Most conventional CSS grid frameworks use the traditional 12 column layout. To u
     <div class="cl-2"></div>
 </div>
 
-```
-
-Set the gutter width and total columns based on your needs.
-
-``` scss
-$cols: 120;
-$gutter: 20px;
 ```
 
 ### Mobile
