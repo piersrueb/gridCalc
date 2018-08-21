@@ -6,15 +6,9 @@ See demo <a href="https://codepen.io/Rueb/pen/qyeVWZ">here</a>.
 
 ### Usage
 
-For the template to function correctly the column class numbers must be factors of the ``` $cols ```  variable and and their sum must match it's total. The default is 120, examples below.
+For the template to function correctly the column class numbers must be factors of the ``` $cols ```  variable and and their sum must match it's total. The default is 120, HTML examples below.
 
 ``` html
-<div class="row">
-    <div class="cl-50"></div>
-    <div class="cl-50"></div>
-    <div class="cl-20"></div>
-</div>
-
 <div class="row">
     <div class="cl-55"></div>
     <div class="cl-45"></div>
@@ -22,13 +16,30 @@ For the template to function correctly the column class numbers must be factors 
 </div>
 
 <div class="row">
-    <div class="cl-40"></div>
+    <div class="cl-45"></div>
     <div class="cl-30"></div>
     <div class="cl-30"></div>
-    <div class="cl-20"></div>
+    <div class="cl-15"></div>
 </div>
 
 ```
+Most conventional CSS grid frameworks use the traditional 12 column layout. To use gridCalc in this way simply change the ``` $cols ```  variable to 12 and you're on your way. HTML examples below.
+
+``` html
+<div class="row">
+    <div class="cl-4"></div>
+    <div class="cl-4"></div>
+    <div class="cl-4"></div>
+</div>
+
+<div class="row">
+    <div class="cl-5"></div>
+    <div class="cl-5"></div>
+    <div class="cl-2"></div>
+</div>
+
+```
+
 Set the gutter width and total columns based on your needs.
 
 ``` scss
