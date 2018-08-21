@@ -38,12 +38,7 @@ Most conventional CSS grid frameworks use the traditional 12 column layout. To u
 <div class="row">
     <div class="cl-4"></div>
     <div class="cl-4"></div>
-    <div class="cl-4"></div>
-</div>
-
-<div class="row">
-    <div class="cl-5"></div>
-    <div class="cl-5"></div>
+    <div class="cl-2"></div>
     <div class="cl-2"></div>
 </div>
 
