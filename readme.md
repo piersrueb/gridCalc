@@ -6,7 +6,7 @@ See demo <a href="https://codepen.io/Rueb/pen/qyeVWZ">here</a>.
 
 ### Usage
 
-Set the gutter width and total columns based on your needs.
+Set the gutter width and total columns based on your needs and gridCalc will take care of the rest.
 
 ``` scss
 $cols: 120;
