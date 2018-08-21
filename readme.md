@@ -16,11 +16,16 @@ For the template to function correctly the column class numbers must be factors 
 </div>
 
 <div class="row">
+    <div class="cl-55"></div>
+    <div class="cl-45"></div>
+    <div class="cl-20"></div>
+</div>
+
+<div class="row">
     <div class="cl-40"></div>
     <div class="cl-30"></div>
+    <div class="cl-30"></div>
     <div class="cl-20"></div>
-    <div class="cl-20"></div>
-    <div class="cl-10"></div>
 </div>
 
 ```
