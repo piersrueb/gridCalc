@@ -4,6 +4,11 @@
     Vendor prefixes are inculed based on values from Can I Use
 */
 
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
 .cl-1 {
     width: -webkit-calc((100%) - (10px * 2));
     width: calc((100%) - (10px * 2));

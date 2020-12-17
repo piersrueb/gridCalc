@@ -6,10 +6,14 @@ $gutter: 20px;  //  define your gutter width, must be a pixel value
 $margin: $gutter / 2;
 $large-phone: 640px;
 
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
 @for $i from 1 through $cols {
     .cl-#{$i}{
         width: calc((#{$width}) - (#{$margin} * 2));
-        float: left;
         margin: $margin;
     }
 }
